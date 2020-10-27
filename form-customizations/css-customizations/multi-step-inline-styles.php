@@ -11,12 +11,7 @@ function override_form_template_styles_with_inline_styles() {
         'give-sequoia-template-css',
         '
         /* add styles here! A sample (turns the headline text blue): */
-
         .introduction .headline {
             color: blue;
         }
-        '
-    );
-}
-
 add_action('wp_print_styles', 'override_form_template_styles_with_inline_styles', 10);
