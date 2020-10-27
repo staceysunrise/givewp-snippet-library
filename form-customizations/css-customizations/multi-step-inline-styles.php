@@ -10,11 +10,7 @@ function override_form_template_styles_with_inline_styles() {
     wp_add_inline_style(
         'give-sequoia-template-css',
         '
-        /* add styles here! A sample (turns the headline text blue): */
-
-        .introduction .headline {
-            color: blue;
-        }
+.give-embed-form, .give-embed-receipt, .give-btn {  font-family: "Franklin Gothic", sans-serif; }
         '
     );
 }
